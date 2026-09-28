@@ -20,7 +20,7 @@ An introduction to the core forecasting workflow, using four classic datasets.
 - **Residual diagnostics:** used the ACF and a Ljung-Box test (p = 0.36) to confirm that a Naïve model's residuals on Google stock prices behave like white noise.
 - **Transformations:** applied a Box-Cox transformation (λ ≈ 0.27) to steady the growing swings in Australian electricity production.
 
-📄 [`A1-ETW3420.pdf`](A1-ETW3420.pdf)
+📄 [`forecast_fundamentals.pdf`](forecast_fundamentals.pdf)
 
 ---
 
@@ -37,7 +37,7 @@ We analysed **five U.S. Energy Information Administration (EIA) energy series** 
 - **ETS** worked best for smoother seasonal series. **ARIMA-based** models worked better for more volatile series.
 - All models lost accuracy during the COVID period, which shows the limits of historical models when a sudden structural break happens.
 
-📄 [`Group_Project_Report.pdf`](Group_Project_Report.pdf)
+📄 [`group_project_report.pdf`](group_project_report.pdf)
 
 ---
 
@@ -57,7 +57,7 @@ Using quarterly data from 2010 to 2025, this project compares **causal** and **p
 - The **causal model** was the easiest to interpret but the least accurate (CV RMSE 329), and its errors grew quickly at longer horizons. This shows a trade-off between **explaining** demand and **predicting** it.
 - No model predicted the record **Q2 2025 spike** (about 2,084 tonnes).
 
-📄 [`ETW3420_A3.pdf`](ETW3420_A3.pdf)
+📄 [`gold_forecast.pdf`](gold_forecast.pdf)
 
 ---
 
